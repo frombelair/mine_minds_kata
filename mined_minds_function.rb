@@ -1,5 +1,7 @@
 def mined_minds(number)
-  if number == 3
+  if number == 15
+  	"minedminds"
+  elsif number == 3
   	"mined"
   elsif number == 5
   	"minds"
