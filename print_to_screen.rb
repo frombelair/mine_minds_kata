@@ -5,5 +5,10 @@ number = 1
 		else
 		puts number
 	end
+		if number % 5 == 0
+			puts "minds"
+		else
+			puts number
+	end
 	number = number + 1
 end
