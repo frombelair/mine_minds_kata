@@ -1,8 +1,8 @@
 number = 1
 100 . times do
-	if number == 3
+	if number % 3 == 0
 		puts "mined"
-	else
+		else
 		puts number
 	end
 	number = number + 1
