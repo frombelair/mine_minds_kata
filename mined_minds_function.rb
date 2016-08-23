@@ -1,7 +1,9 @@
 def mined_minds(number)
   if number == 3
   	"mined"
-  else 
+  elsif number == 5
+  	"minds"
+  else
   	number
   end
 
