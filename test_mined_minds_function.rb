@@ -23,4 +23,8 @@ def test_3_returns_mined
 	assert_equal("mined", mined_minds(3)) 
 end
 
+def test_5_returns_minds
+	assert_equal("minds", mined_minds(5))
+end
+
 end
