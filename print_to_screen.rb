@@ -15,6 +15,10 @@
 
 number = 1 #sets variable for word number = 1
 100.times do
-	puts number
+	if number == 3 
+		puts "mined"
+	else
+		puts number		
+	end	
 	number = number + 1
 end
